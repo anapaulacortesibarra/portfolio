@@ -1,5 +1,5 @@
 import s from './Portfolio.module.css'
-import imag from '../../Assets/ej.png'
+import imag from '../../Assets/videogames.png'
 import arcane from '../../Assets/arcane.png'
 
 const Portfolio = () => {
@@ -11,14 +11,14 @@ const Portfolio = () => {
       <div className={s.portfolio__container}>
         <article className={s.portfolio__item}>
           <div className={s.portfolio__item_image}>
-            {/* <img src={imag} alt="" /> */}
+            <img src={imag} alt="" />
           </div>
           <div className={s.title}>
             <h3>Videogames</h3>
           </div>
           <div className={s.portfolio__cta}>
             <a href="https://github.com/anapaulacortesibarra/project" className="btn" target='_blank'>Github</a>
-            <a href="https://dribbble.com/Alien_pixels" className="btn btn-primary" target='_blank'>Live Demo</a>
+            <a href="https://youtu.be/kc_psGKHuuM" className="btn btn-primary" target='_blank'>Live Demo</a>
           </div>
         </article>
 

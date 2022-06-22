@@ -1,14 +1,13 @@
 import style from './Header.module.css'
-//import CV from ''assets'
+import CV from '../../Assets/CV.pdf'
 import perfil from '../../Assets/perfil.png'
 
 const ContactMe = () => {
   return (
     <div>
       <div className={style.link}>
-        <a className="btn">Download CV</a>
-        {/* <a href={CV} download>Download CV</a> */}
-        <a className="btn btn-primary">Contact Me</a>
+        <a href={CV} download className="btn">Download Resume</a>
+        <a className="btn btn-primary" href="#contact">Contact Me</a>
 
         <div className={style.photo}>
           <img src={perfil} alt="Profile photo" />
