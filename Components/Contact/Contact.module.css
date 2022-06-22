@@ -1,0 +1,13 @@
+.contact__container{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.contact__icon{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+}

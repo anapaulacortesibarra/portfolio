@@ -42,6 +42,12 @@ align-items: center;
   align-items: center;
 }
 
+.para{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
 /* media queries (medium devices) */
 
 @media screen and (max-width: 1024px){

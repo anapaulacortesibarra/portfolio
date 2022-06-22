@@ -1,20 +1,24 @@
-nav{
-  background: rgba(0,0,0,0.3);
-  width: max-content;
-  display: block;
-  padding: 0.7rem 1.7rem;
-  z-index: 2;
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 2rem;
+
+.Navbar {
   display: flex;
-  gap: 0.8rem;
-  border-radius: 3rem;
-  backdrop-filter: blur(15px);
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  background: rgba(0,0,0,0.3);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.icon{
+  width: 100%;
+}
+.menu{
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
 }
 
-nav a {
+
+/* nav a {
   background: transparent;
   padding: 0.9rem;
   border-radius: 50%;
@@ -30,4 +34,4 @@ nav a:hover{
 nav a.active{
   background: var(--color-bg);
   color: var(--color-white);
-}
+} */
